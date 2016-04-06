@@ -1,4 +1,4 @@
-//: Playground - noun: a place where people can play
+//Requires Xcode 7.3 or later.
 
 import SpriteKit
 import XCPlayground
@@ -9,7 +9,6 @@ scene.scaleMode = .AspectFill
 sceneView.presentScene(scene)
 
 XCPlaygroundPage.currentPage.liveView = sceneView
-
 /*:
  * experiment:
   Because gravity is defined by the scene’s physics world (its `physicsWorld` property), in the the world of SpriteKit laws of physics can be altered!
